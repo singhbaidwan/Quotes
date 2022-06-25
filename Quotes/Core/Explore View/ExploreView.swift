@@ -12,10 +12,16 @@ struct ExploreView: View {
     var body: some View {
         ScrollView(.vertical,showsIndicators: false)
         {
-            Text("Explore Quotes with tags")
-            LazyVGrid(columns: gridItemLayout,spacing: 10) {
-                ForEach( 0 ... 10,id: \.self) { _ in
-                    TagFilteredQuoteListView()
+            VStack(alignment:.leading){
+                NavigationLink(destination: ExploreAuthorListView()) {
+                    InfoCardView(title: "Explore Authors", image: Image(systemName: "arrow.forward"))
+                }
+                CustomTitleView(titleText: "Explore Quotes with tags")
+                LazyVGrid(columns: gridItemLayout,spacing: 10) {
+                    ForEach( 0 ... 10,id: \.self) { _ in
+                        TagFilteredQuoteListView()
+                            .cornerRadius(10)
+                    }
                 }
             }
         }

@@ -17,10 +17,9 @@ struct ExploreView: View {
                     InfoCardView(title: "Explore Authors", image: Image(systemName: "arrow.forward"))
                 }
                 CustomTitleView(titleText: "Explore Quotes with tags")
-                LazyVGrid(columns: gridItemLayout,spacing: 10) {
+                LazyVGrid(columns: gridItemLayout,spacing: 5) {
                     ForEach( 0 ... 10,id: \.self) { _ in
-                        TagFilteredQuoteListView()
-                            .cornerRadius(10)
+                        TagFilteredQuoteListView(tagName: "technology", quoteCount: 1234)
                     }
                 }
             }

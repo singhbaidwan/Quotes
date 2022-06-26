@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ExploreAuthorListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView{
+            LazyVStack{
+                ForEach(0...10,id:\.self){
+                    _ in
+                    ExploreAuthorCardView(authorName: "Albert Einstien", authorDescription: "This is a author description", quoteCount: 1244)
+                        .padding(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
+                }
+            }
+        }
     }
 }
 

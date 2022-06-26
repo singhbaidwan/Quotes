@@ -33,9 +33,9 @@ struct QuotesCell: View {
             }
             Image(systemName: "star")
                 .resizable()
-                .frame(width: 30,height: 30)
+                .frame(width: 20,height: 20)
         }
-        .background(Color.gray.opacity(0.3))
+        .background(Constants.appSecondary)
         .cornerRadius(5)
     }
 }

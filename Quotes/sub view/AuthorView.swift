@@ -8,19 +8,20 @@
 import SwiftUI
 
 struct AuthorView: View {
+    var author:Author
     var body: some View {
         VStack(alignment:.leading)
         {
             HStack{
                 VStack(alignment:.leading,spacing: 10)
                 {
-                    Text("Larry Page")
+                    Text(author.name)
                         .font(.title)
                         .bold()
-                    Text("Americal Bussinessman")
+                    Text(author.description)
                         .font(.caption)
                         .italic()
-                    Text("This is the body of the text he is bla bla bla lkajdlfj lkajfdklajkd lkjadkfj alkjdfklajf ljalkdfjl lkjaflksjf ajdlfk;aldf ;akdf ajdflkj jaldjfl ajdflkjakldf j ")
+                    Text(author.bio)
                         .font(.body)
                 
                 }
@@ -36,6 +37,6 @@ struct AuthorView: View {
 
 struct AuthorView_Previews: PreviewProvider {
     static var previews: some View {
-        AuthorView().previewLayout(.sizeThatFits)
+        AuthorView(author: Author(link: "", bio: "This is the body of the text he is bla bla bla lkajdlfj lkajfdklajkd lkjadkfj alkjdfklajf ljalkdfjl lkjaflksjf ajdlfk;aldf ;akdf ajdflkj jaldjfl ajdflkjakldf j ", description: "Americal Bussinessman", _id: "", name: "", quoteCount: 12, slug: "")).previewLayout(.sizeThatFits)
     }
 }

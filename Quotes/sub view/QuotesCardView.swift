@@ -20,6 +20,7 @@ struct QuotesCardView: View {
                 .italic()
                 .padding(EdgeInsets(top: 15, leading: 15, bottom: 15, trailing: 15))
             
+            .font(Font.title2)
             Spacer()
         }.background(Constants.appSecondary)
             .cornerRadius(5)

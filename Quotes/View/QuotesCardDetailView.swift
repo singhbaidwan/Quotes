@@ -15,11 +15,15 @@ struct QuotesDetail: View {
         {
             QuotesCardView(text: quote.content)
                 .offset(y:12)
-                .font(Font.title2)
             CustomTitleView(titleText: "Author")
-          
-            AuthorNameView(author: quote.author)
-            CustomTitleView(titleText: "Tags")
+            NavigationLink {
+                AuthorDetailView(authorSlug: quote.authorSlug)
+            } label: {
+
+                AuthorNameView(author: quote.author)
+                
+            }
+CustomTitleView(titleText: "Tags")
                 .padding(.top,8)
             QuoteTagsView(tags: quote.tags)
         }

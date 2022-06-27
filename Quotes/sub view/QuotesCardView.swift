@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct QuotesCardView: View {
+    var text:String
     var body: some View {
         HStack{
             let quoteText =
             Text("\"")
-            + Text("Wisdom is a kind of knowledge. It is knowledge of the nature, career, and consequences of human values.")
+            + Text(text)
             + Text("\"")
             quoteText
                 .bold()
@@ -29,6 +30,6 @@ struct QuotesCardView: View {
 
 struct QuotesCardView_Previews: PreviewProvider {
     static var previews: some View {
-        QuotesCardView().previewLayout(.sizeThatFits)
+        QuotesCardView(text: "Wisdom is a kind of knowledge. It is knowledge of the nature, career, and consequences of human values.").previewLayout(.sizeThatFits)
     }
 }

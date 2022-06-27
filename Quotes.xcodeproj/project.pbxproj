@@ -20,12 +20,16 @@
 		0B3D6D77286626C600FD11A2 /* TagFilteredQuoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D6D76286626C600FD11A2 /* TagFilteredQuoteListView.swift */; };
 		0B5BF2AD28676CB100CCF8D6 /* ExploreAuthorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BF2AC28676CB100CCF8D6 /* ExploreAuthorListView.swift */; };
 		0B5BF2B1286772EF00CCF8D6 /* QuotesCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BF2B0286772EF00CCF8D6 /* QuotesCardDetailView.swift */; };
+		0B876F2F286A0BAA0027FBF4 /* AuthorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B876F2E286A0BAA0027FBF4 /* AuthorDetailView.swift */; };
+		0B876F31286A0C230027FBF4 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B876F30286A0C230027FBF4 /* AuthorView.swift */; };
 		0B94844328677AF900207BBD /* QuotesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B94844228677AF900207BBD /* QuotesCardView.swift */; };
 		0BD8A6292867809800BE2344 /* CustomTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8A6282867809800BE2344 /* CustomTitleView.swift */; };
 		0BD8A62B286781E800BE2344 /* QuoteTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8A62A286781E800BE2344 /* QuoteTagView.swift */; };
 		0BD8A62D286786B700BE2344 /* AuthorNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8A62C286786B700BE2344 /* AuthorNameView.swift */; };
 		0BE10DAF2868BD9B0041CC3D /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE10DAE2868BD9B0041CC3D /* DefaultView.swift */; };
 		0BE10DB22868BE980041CC3D /* ExploreAuthorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE10DB12868BE980041CC3D /* ExploreAuthorCardView.swift */; };
+		0BE10DB52868D69F0041CC3D /* QuotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE10DB42868D69F0041CC3D /* QuotesModel.swift */; };
+		0BE10DB72868D91D0041CC3D /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE10DB62868D91D0041CC3D /* QuotesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,12 +47,16 @@
 		0B3D6D76286626C600FD11A2 /* TagFilteredQuoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagFilteredQuoteListView.swift; sourceTree = "<group>"; };
 		0B5BF2AC28676CB100CCF8D6 /* ExploreAuthorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreAuthorListView.swift; sourceTree = "<group>"; };
 		0B5BF2B0286772EF00CCF8D6 /* QuotesCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesCardDetailView.swift; sourceTree = "<group>"; };
+		0B876F2E286A0BAA0027FBF4 /* AuthorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetailView.swift; sourceTree = "<group>"; };
+		0B876F30286A0C230027FBF4 /* AuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
 		0B94844228677AF900207BBD /* QuotesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesCardView.swift; sourceTree = "<group>"; };
 		0BD8A6282867809800BE2344 /* CustomTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitleView.swift; sourceTree = "<group>"; };
 		0BD8A62A286781E800BE2344 /* QuoteTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTagView.swift; sourceTree = "<group>"; };
 		0BD8A62C286786B700BE2344 /* AuthorNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorNameView.swift; sourceTree = "<group>"; };
 		0BE10DAE2868BD9B0041CC3D /* DefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultView.swift; sourceTree = "<group>"; };
 		0BE10DB12868BE980041CC3D /* ExploreAuthorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreAuthorCardView.swift; sourceTree = "<group>"; };
+		0BE10DB42868D69F0041CC3D /* QuotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModel.swift; sourceTree = "<group>"; };
+		0BE10DB62868D91D0041CC3D /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 				0BE10DB02868BE300041CC3D /* sub view */,
 				0B3D6D63286618CB00FD11A2 /* Service */,
 				0B3D6D62286618C300FD11A2 /* Model */,
+				0BE10DB32868D5E50041CC3D /* View Model */,
 				0B3D6D61286618BA00FD11A2 /* Extensions */,
 				0B3D6D57286611A700FD11A2 /* Utils */,
 				0B3D6D6F2866217100FD11A2 /* View */,
@@ -141,6 +150,7 @@
 		0B3D6D62286618C300FD11A2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0BE10DB42868D69F0041CC3D /* QuotesModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,6 +212,7 @@
 		0B3D6D6F2866217100FD11A2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0B876F2E286A0BAA0027FBF4 /* AuthorDetailView.swift */,
 				0B5BF2AC28676CB100CCF8D6 /* ExploreAuthorListView.swift */,
 				0B5BF2B0286772EF00CCF8D6 /* QuotesCardDetailView.swift */,
 			);
@@ -220,8 +231,17 @@
 				0BD8A62C286786B700BE2344 /* AuthorNameView.swift */,
 				0B3D6D6D286619B400FD11A2 /* QuotesCell.swift */,
 				0BE10DB12868BE980041CC3D /* ExploreAuthorCardView.swift */,
+				0B876F30286A0C230027FBF4 /* AuthorView.swift */,
 			);
 			path = "sub view";
+			sourceTree = "<group>";
+		};
+		0BE10DB32868D5E50041CC3D /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BE10DB62868D91D0041CC3D /* QuotesViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,13 +316,16 @@
 			files = (
 				0B1699342864D0E700518A40 /* QuotesApp.swift in Sources */,
 				0B3D6D5E2866126E00FD11A2 /* HomeView.swift in Sources */,
+				0BE10DB52868D69F0041CC3D /* QuotesModel.swift in Sources */,
 				0BD8A6292867809800BE2344 /* CustomTitleView.swift in Sources */,
 				0B3D6D6E286619B400FD11A2 /* QuotesCell.swift in Sources */,
 				0B3D6D77286626C600FD11A2 /* TagFilteredQuoteListView.swift in Sources */,
 				0B3D6D712866218700FD11A2 /* InfoCardView.swift in Sources */,
 				0BE10DB22868BE980041CC3D /* ExploreAuthorCardView.swift in Sources */,
 				0BD8A62B286781E800BE2344 /* QuoteTagView.swift in Sources */,
+				0B876F31286A0C230027FBF4 /* AuthorView.swift in Sources */,
 				0B94844328677AF900207BBD /* QuotesCardView.swift in Sources */,
+				0B876F2F286A0BAA0027FBF4 /* AuthorDetailView.swift in Sources */,
 				0B5BF2AD28676CB100CCF8D6 /* ExploreAuthorListView.swift in Sources */,
 				0B3D6D602866128C00FD11A2 /* FavouriteView.swift in Sources */,
 				0B3D6D5C2866126100FD11A2 /* ExploreView.swift in Sources */,
@@ -311,6 +334,7 @@
 				0B5BF2B1286772EF00CCF8D6 /* QuotesCardDetailView.swift in Sources */,
 				0BD8A62D286786B700BE2344 /* AuthorNameView.swift in Sources */,
 				0B3D6D75286621D900FD11A2 /* Constants.swift in Sources */,
+				0BE10DB72868D91D0041CC3D /* QuotesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

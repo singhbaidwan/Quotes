@@ -8,25 +8,27 @@
 import SwiftUI
 
 struct QuotesDetail: View {
-    
+    var quote : Quote
     var body: some View {
+        
         ScrollView(.vertical,showsIndicators: false)
         {
-            QuotesCardView()
+            QuotesCardView(text: quote.content)
                 .offset(y:12)
+                .font(Font.title2)
             CustomTitleView(titleText: "Author")
+          
+            AuthorNameView(author: quote.author)
             CustomTitleView(titleText: "Tags")
                 .padding(.top,8)
-            AuthorNameView(author: "Albert En")
-            QuoteTagsView(tags: ["information"])
+            QuoteTagsView(tags: quote.tags)
         }
-        .navigationBarBackButtonHidden(true)
         .navigationBarTitle(Text("Quotes Details"))
     }
 }
 
 struct QuotesDetail_Previews: PreviewProvider {
     static var previews: some View {
-        QuotesDetail()
+        QuotesDetail(quote:Quote(tags: ["information"], _id:"", author: "Albert En", content: "Wisdom is a kind of knowledge. It is knowledge of the nature, career, and consequences of human values.", authorSlug: ""))
     }
 }

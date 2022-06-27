@@ -8,13 +8,33 @@
 import SwiftUI
 
 struct HomeView: View {
+    @Environment(\.colorScheme) var colorScheme
+    @ObservedObject var quotesVM = QuotesViewModel()
+    init(){
+        quotesVM.fetchQuote(for: 1)
+    }
     var body: some View {
         ScrollView{
             LazyVStack{
-                ForEach( 0 ... 10,id:\.self)
-                {_ in 
-                    QuotesCell()
-                        .padding(.horizontal,5)
+                if quotesVM.isLoading{
+                    ProgressView()
+                        .padding(.top,100)
+                        .progressViewStyle(.circular)
+                }
+                else{
+                    if let quotes = quotesVM.quoteModel?.results{
+                        ForEach(quotes){
+                            quote in
+                            NavigationLink {
+                                QuotesDetail(quote: quote)
+                            } label: {
+                                QuotesCell(quoteText: quote.content, author: quote.author, authorVisible: true, isFavouriteQuote: false)
+                                    .padding([.leading,.trailing],10)
+                            }
+
+                           
+                        }
+                    }
                 }
             }
         }

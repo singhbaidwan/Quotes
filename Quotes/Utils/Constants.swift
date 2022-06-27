@@ -10,4 +10,15 @@ import SwiftUI
 struct Constants{
     static let appSecondary = Color.gray.opacity(0.1)
     static let appPrimary = Color.black.opacity(0.9)
+    
+    // API KEYS
+    static let base_url = "https://api.quotable.io"
+    static let get_quote_url = "\(base_url)/quotes?page="
+    static let get_tags_url = "\(base_url)/tags"
+    static let get_authors_url = "\(base_url)/authors"
+    static let get_author_with_slugname = "\(base_url)/authors?slug="
+    static let get_randon_quote_url = "\(base_url)/random"
+    static let get_quotes = "\(base_url)/quotes"
+    static let get_quotes_for_author = "\(base_url)/quotes?author="
+    static let image_base_url = "https://api.pexels.com/v1/"
 }

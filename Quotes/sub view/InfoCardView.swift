@@ -34,7 +34,7 @@ struct InfoCardView: View {
         }
         .background(Constants.appSecondary)
         .cornerRadius(5)
-        .padding(EdgeInsets(top: 10, leading: 15, bottom: 10, trailing: 15))
+        .padding(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
         
     }
 }

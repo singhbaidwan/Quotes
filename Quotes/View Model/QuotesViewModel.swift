@@ -17,8 +17,15 @@ class QuotesViewModel:ObservableObject{
             do{
                 let quote = try JSONDecoder().decode(QuotesModel.self, from: data)
                 DispatchQueue.main.async {
-                    self.quoteModel = quote
-                    self.isLoading = false
+                    if page == 1{
+                        self.quoteModel = quote
+                        self.isLoading = false
+                    }
+                    else{
+                        self.isLoading = false
+                        self.quoteModel?.results.append(contentsOf: quote.results)
+                        self.quoteModel?.page = quote.page
+                    }
                 }
             }
             catch{
@@ -33,8 +40,14 @@ class QuotesViewModel:ObservableObject{
             do{
                 let quote = try JSONDecoder().decode(QuotesModel.self, from: data)
                 DispatchQueue.main.async {
-                    self.quoteModel = quote
                     self.isLoading = false
+                    if page == 1{
+                        self.quoteModel = quote
+                    }
+                    else{
+                        self.quoteModel?.page = quote.page
+                        self.quoteModel?.results.append(contentsOf: quote.results)
+                    }
                 }
             }
             catch{
@@ -49,8 +62,15 @@ class QuotesViewModel:ObservableObject{
                 guard let data = data else {return}
                 let quote = try JSONDecoder().decode(QuotesModel.self, from: data)
                 DispatchQueue.main.async {
+                    if page == 1{
                     self.isLoading = false
                     self.quoteModel = quote
+                    }
+                    else{
+                        self.isLoading = false
+                        self.quoteModel?.page = quote.page
+                        self.quoteModel?.results.append(contentsOf: quote.results)
+                    }
                 }
             }
             catch{

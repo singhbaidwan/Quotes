@@ -31,8 +31,16 @@ struct HomeView: View {
                                 QuotesCell(quoteText: quote.content, author: quote.author, authorVisible: true, isFavouriteQuote: false)
                                     .padding([.leading,.trailing],10)
                             }
-
-                           
+                        }
+                        if let quoteTotalCount = quotesVM.quoteModel?.totalCount{
+                            ProgressView()
+                                .padding()
+                                .progressViewStyle(.circular)
+                                .onAppear {
+                                    if let page = quotesVM.quoteModel?.page{
+                                        self.quotesVM.fetchQuote(for: page+1)
+                                    }
+                                }
                         }
                     }
                 }

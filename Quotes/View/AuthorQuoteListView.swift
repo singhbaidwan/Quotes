@@ -38,6 +38,18 @@ struct AuthorQuoteListView: View {
                             
                         }
                     }
+                    if let quoteTotalCount = viewModel.quoteModel?.totalCount{
+                        if quoteTotalCount>quotes.count{
+                            ProgressView()
+                                .padding()
+                                .progressViewStyle(.circular)
+                                .onAppear {
+                                    if let page = viewModel.quoteModel?.page{
+                                        self.viewModel.fetchQuoteWithAuthorSlug(with: self.authorSlug, for: page+1)
+                                    }
+                                }
+                        }
+                    }
                 }
             }
         }

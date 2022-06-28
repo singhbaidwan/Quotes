@@ -19,7 +19,14 @@ class AuthorsViewModel:ObservableObject{
                 let authors = try JSONDecoder().decode(AuthorsModel.self, from: data)
                 DispatchQueue.main.async {
                     self.isLoading = false
-                    self.authorsModel = authors
+                    if page == 1{
+                        self.authorsModel = authors
+                    }
+                    else{
+                        self.authorsModel?.page = authors.page
+                        self.authorsModel?.totalCount = authors.totalCount
+                        self.authorsModel?.results.append(contentsOf: authors.results)
+                    }
                 }
             }
             catch{

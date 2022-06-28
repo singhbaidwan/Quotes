@@ -38,6 +38,19 @@ struct TagsQuoteView: View {
                             }
 
                         }
+                        if let quoteTotalCount = viewModel.quoteModel?.totalCount{
+                            if quoteTotalCount>quotes.count{
+                                ProgressView()
+                                    .padding()
+                                    .progressViewStyle(.circular)
+                                    .onAppear {
+                                        if let page = viewModel.quoteModel?.page{
+                                            self.viewModel.fetchQuoteWithTagName(with: self.tagName, for: page+1)
+                                        }
+                                    }
+                            }
+                            
+                        }
                     }
                 }
             }

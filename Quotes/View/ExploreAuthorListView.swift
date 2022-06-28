@@ -31,9 +31,19 @@ struct ExploreAuthorListView: View {
                         ExploreAuthorCardView(authorSlug: author.slug, authorName: author.name, authorDescription: author.description, quoteCount: author.quoteCount)
                             .padding(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
                     }
-
                 }
-                        
+                        if let authorTotalCount = viewModel.authorsModel?.totalCount{
+                            if authorTotalCount>authors.count{
+                                ProgressView()
+                                    .padding()
+                                    .progressViewStyle(.circular)
+                                    .onAppear {
+                                        if let page = viewModel.authorsModel?.page{
+                                            self.viewModel.fetchAuthor(with: page+1)
+                                        }
+                                    }
+                            }
+                        }
                     }
                     
                 }

@@ -10,6 +10,9 @@
 		0B1699342864D0E700518A40 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1699332864D0E700518A40 /* QuotesApp.swift */; };
 		0B1699382864D0EA00518A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1699372864D0EA00518A40 /* Assets.xcassets */; };
 		0B16993B2864D0EA00518A40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B16993A2864D0EA00518A40 /* Preview Assets.xcassets */; };
+		0B329D87286B599C0061E7F3 /* TagsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B329D86286B599C0061E7F3 /* TagsModel.swift */; };
+		0B329D89286B5A2E0061E7F3 /* TagsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B329D88286B5A2E0061E7F3 /* TagsViewModel.swift */; };
+		0B329D8B286B602D0061E7F3 /* TagsQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B329D8A286B602D0061E7F3 /* TagsQuoteView.swift */; };
 		0B3D6D5A2866123F00FD11A2 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D6D592866123F00FD11A2 /* CustomTabView.swift */; };
 		0B3D6D5C2866126100FD11A2 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D6D5B2866126100FD11A2 /* ExploreView.swift */; };
 		0B3D6D5E2866126E00FD11A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D6D5D2866126E00FD11A2 /* HomeView.swift */; };
@@ -40,6 +43,9 @@
 		0B1699332864D0E700518A40 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
 		0B1699372864D0EA00518A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B16993A2864D0EA00518A40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B329D86286B599C0061E7F3 /* TagsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsModel.swift; sourceTree = "<group>"; };
+		0B329D88286B5A2E0061E7F3 /* TagsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsViewModel.swift; sourceTree = "<group>"; };
+		0B329D8A286B602D0061E7F3 /* TagsQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsQuoteView.swift; sourceTree = "<group>"; };
 		0B3D6D592866123F00FD11A2 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		0B3D6D5B2866126100FD11A2 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		0B3D6D5D2866126E00FD11A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -158,6 +164,7 @@
 			children = (
 				0BE10DB42868D69F0041CC3D /* QuotesModel.swift */,
 				0BBD2D9D286A24B0003A110A /* AuthorsModel.swift */,
+				0B329D86286B599C0061E7F3 /* TagsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -223,6 +230,7 @@
 				0B5BF2AC28676CB100CCF8D6 /* ExploreAuthorListView.swift */,
 				0B5BF2B0286772EF00CCF8D6 /* QuotesCardDetailView.swift */,
 				0BBD2DA3286A2F67003A110A /* AuthorQuoteListView.swift */,
+				0B329D8A286B602D0061E7F3 /* TagsQuoteView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -249,6 +257,7 @@
 			children = (
 				0BE10DB62868D91D0041CC3D /* QuotesViewModel.swift */,
 				0BBD2DA1286A253E003A110A /* AuthorsViewModel.swift */,
+				0B329D88286B5A2E0061E7F3 /* TagsViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -330,12 +339,15 @@
 				0B3D6D6E286619B400FD11A2 /* QuotesCell.swift in Sources */,
 				0B3D6D77286626C600FD11A2 /* TagFilteredQuoteListView.swift in Sources */,
 				0BBD2D9E286A24B0003A110A /* AuthorsModel.swift in Sources */,
+				0B329D89286B5A2E0061E7F3 /* TagsViewModel.swift in Sources */,
 				0BBD2DA2286A253E003A110A /* AuthorsViewModel.swift in Sources */,
 				0B3D6D712866218700FD11A2 /* InfoCardView.swift in Sources */,
+				0B329D8B286B602D0061E7F3 /* TagsQuoteView.swift in Sources */,
 				0BE10DB22868BE980041CC3D /* ExploreAuthorCardView.swift in Sources */,
 				0BD8A62B286781E800BE2344 /* QuoteTagView.swift in Sources */,
 				0B876F31286A0C230027FBF4 /* AuthorView.swift in Sources */,
 				0B94844328677AF900207BBD /* QuotesCardView.swift in Sources */,
+				0B329D87286B599C0061E7F3 /* TagsModel.swift in Sources */,
 				0B876F2F286A0BAA0027FBF4 /* AuthorDetailView.swift in Sources */,
 				0B5BF2AD28676CB100CCF8D6 /* ExploreAuthorListView.swift in Sources */,
 				0B3D6D602866128C00FD11A2 /* FavouriteView.swift in Sources */,

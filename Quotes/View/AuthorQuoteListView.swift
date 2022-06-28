@@ -29,7 +29,13 @@ struct AuthorQuoteListView: View {
                         ForEach(quotes)
                         {
                             quote in
-                            QuotesCardView(text: quote.content)
+                            NavigationLink {
+                                QuotesDetail(quote: quote,showAuthorLink: false)
+                            } label: {
+                                QuotesCardView(text: quote.content)
+                                
+                            }
+                            
                         }
                     }
                 }

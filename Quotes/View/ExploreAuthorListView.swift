@@ -8,13 +8,34 @@
 import SwiftUI
 
 struct ExploreAuthorListView: View {
+    @ObservedObject var viewModel = AuthorsViewModel()
+    init()
+    {
+        viewModel.fetchAuthor(with: 1)
+    }
     var body: some View {
-        ScrollView{
+        ScrollView(.vertical,showsIndicators: false){
             LazyVStack{
-                ForEach(0...10,id:\.self){
-                    _ in
-                    ExploreAuthorCardView(authorName: "Albert Einstien", authorDescription: "This is a author description", quoteCount: 1244)
-                        .padding(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
+                if viewModel.isLoading{
+                    ProgressView()
+                        .padding(.top,100)
+                        .progressViewStyle(.circular)
+                }
+                else{
+                    if let authors = viewModel.authorsModel?.results{
+                ForEach(authors){
+                    author in
+                    NavigationLink {
+                        AuthorDetailView(authorSlug: author.slug)
+                    } label: {
+                        ExploreAuthorCardView(authorSlug: author.slug, authorName: author.name, authorDescription: author.description, quoteCount: author.quoteCount)
+                            .padding(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
+                    }
+
+                }
+                        
+                    }
+                    
                 }
             }
         }

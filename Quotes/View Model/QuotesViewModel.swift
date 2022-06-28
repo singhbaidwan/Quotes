@@ -42,4 +42,20 @@ class QuotesViewModel:ObservableObject{
             }
         }.resume()
     }
+    func fetchQuoteWithTagName(with tagName:String,for page:Int){
+        guard let url = URL(string: Constants.get_quotes+"?tags=\(tagName)&page=\(page)") else {return}
+        URLSession.shared.dataTask(with: url) { data, _, error in
+            do{
+                guard let data = data else {return}
+                let quote = try JSONDecoder().decode(QuotesModel.self, from: data)
+                DispatchQueue.main.async {
+                    self.isLoading = false
+                    self.quoteModel = quote
+                }
+            }
+            catch{
+                print("DEBUG : Fetch quotes with tag Name \(error)")
+            }
+        }.resume()
+    }
 }

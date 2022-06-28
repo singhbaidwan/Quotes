@@ -9,18 +9,23 @@ import SwiftUI
 
 struct QuotesDetail: View {
     var quote : Quote
+    var showAuthorLink = true
     var body: some View {
         
         ScrollView(.vertical,showsIndicators: false)
         {
             QuotesCardView(text: quote.content)
                 .offset(y:12)
-            CustomTitleView(titleText: "Author")
-            NavigationLink {
+            if showAuthorLink{
+                CustomTitleView(titleText: "Author")
+                
+                NavigationLink {
                 AuthorDetailView(authorSlug: quote.authorSlug)
             } label: {
 
                 AuthorNameView(author: quote.author)
+                
+            }
                 
             }
 CustomTitleView(titleText: "Tags")

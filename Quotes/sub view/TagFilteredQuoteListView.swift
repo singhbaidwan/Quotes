@@ -17,8 +17,7 @@ struct TagFilteredQuoteListView: View {
             VStack(alignment:.center)
             {
                 Text(tagName.uppercased())
-                    .font(.title2)
-                    .bold()
+                    .font(.system(size: 20, weight: .heavy, design: .default))
                 Text("Quote Count : \(quoteCount)")
                     .font(.caption)
                     .italic()

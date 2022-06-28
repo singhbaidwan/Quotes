@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ExploreAuthorCardView: View {
     @Environment(\.colorScheme) var colorScheme
+    var authorSlug:String
     var authorName:String
     var authorDescription:String
     var quoteCount:Int
@@ -43,7 +44,7 @@ struct ExploreAuthorCardView: View {
 
 struct ExploreAuthorCardView_Previews: PreviewProvider {
     static var previews: some View {
-        ExploreAuthorCardView(authorName: "Albert Einstien", authorDescription: "This is a author description", quoteCount: 1244)
+        ExploreAuthorCardView(authorSlug: "", authorName: "Albert Einstien", authorDescription: "This is a author description", quoteCount: 1244)
             .previewLayout(.sizeThatFits)
     }
 }

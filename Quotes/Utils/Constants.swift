@@ -21,4 +21,22 @@ struct Constants{
     static let get_quotes = "\(base_url)/quotes"
     static let get_quotes_for_author = "\(base_url)/quotes?author="
     static let image_base_url = "https://api.pexels.com/v1/"
+    
+    // FONTS
+    static let fontRegular = "PlayfairDisplay-Regular"
+    static let fontItalic = "PlayfairDisplay-Italic"
+    static let fontBold = "PlayfairDisplay-Bold"
+    static let fontBoldItalic = "PlayfairDisplay-BoldItalic"
+    static let fontBlack = "PlayfairDisplay-Black"
+    static let fontBlackItalic = "PlayfairDisplay-BlackItalic"
+    static let fontGothamLight = "Gotham-Light"
+    static let fontGaramondRoman = "Garamond-Roman"
+    static let fontVollkornItalic = "Vollkorn-Italic"
+    static let fontFreightSansBook = "Freight-SansBook"
+    static let fontMontserratRegular = "Montserrat-Regular"
+    static let fontDancingScriptRegular = "DancingScript-Regular"
+    static let fontOpenSansRegular  = "OpenSans-Regular"
+    static let fontTimesNewRoman = "TimesNewRomanPSMT"
+    static let fontPoppinsRegular  = "Poppins-Regular"
+    static let fontNunitoRegular  = "Nunito-Regular"
 }

@@ -10,6 +10,24 @@
 		0B1699342864D0E700518A40 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1699332864D0E700518A40 /* QuotesApp.swift */; };
 		0B1699382864D0EA00518A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1699372864D0EA00518A40 /* Assets.xcassets */; };
 		0B16993B2864D0EA00518A40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B16993A2864D0EA00518A40 /* Preview Assets.xcassets */; };
+		0B2A4FA0286CAC2A0009A0DC /* CreatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2A4F9F286CAC2A0009A0DC /* CreatorsView.swift */; };
+		0B2A4FB3286CB1EF0009A0DC /* PlayfairDisplay-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FA3286CB1EF0009A0DC /* PlayfairDisplay-BoldItalic.otf */; };
+		0B2A4FB4286CB1EF0009A0DC /* PlayfairDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FA4286CB1EF0009A0DC /* PlayfairDisplay-Bold.otf */; };
+		0B2A4FB5286CB1EF0009A0DC /* times new roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FA5286CB1EF0009A0DC /* times new roman.ttf */; };
+		0B2A4FB6286CB1EF0009A0DC /* Vollkorn-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FA6286CB1EF0009A0DC /* Vollkorn-Italic.ttf */; };
+		0B2A4FB7286CB1EF0009A0DC /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FA7286CB1EF0009A0DC /* Nunito-Regular.ttf */; };
+		0B2A4FB8286CB1EF0009A0DC /* Freight Sans Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FA8286CB1EF0009A0DC /* Freight Sans Book.otf */; };
+		0B2A4FB9286CB1EF0009A0DC /* Garamond Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FA9286CB1EF0009A0DC /* Garamond Roman.ttf */; };
+		0B2A4FBA286CB1EF0009A0DC /* PlayfairDisplay-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FAA286CB1EF0009A0DC /* PlayfairDisplay-BlackItalic.otf */; };
+		0B2A4FBB286CB1EF0009A0DC /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FAB286CB1EF0009A0DC /* Montserrat-Regular.otf */; };
+		0B2A4FBC286CB1EF0009A0DC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FAC286CB1EF0009A0DC /* Poppins-Regular.ttf */; };
+		0B2A4FBD286CB1EF0009A0DC /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FAD286CB1EF0009A0DC /* Gotham-Light.otf */; };
+		0B2A4FBE286CB1EF0009A0DC /* PlayfairDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FAE286CB1EF0009A0DC /* PlayfairDisplay-Black.otf */; };
+		0B2A4FBF286CB1EF0009A0DC /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FAF286CB1EF0009A0DC /* OpenSans-Regular.ttf */; };
+		0B2A4FC0286CB1EF0009A0DC /* DancingScript-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FB0286CB1EF0009A0DC /* DancingScript-VariableFont_wght.ttf */; };
+		0B2A4FC1286CB1EF0009A0DC /* PlayfairDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FB1286CB1EF0009A0DC /* PlayfairDisplay-Regular.otf */; };
+		0B2A4FC2286CB1EF0009A0DC /* PlayfairDisplay-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FB2286CB1EF0009A0DC /* PlayfairDisplay-Italic.otf */; };
+		0B2A4FC4286CC4A60009A0DC /* CustomAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2A4FC3286CC4A60009A0DC /* CustomAnimationView.swift */; };
 		0B329D87286B599C0061E7F3 /* TagsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B329D86286B599C0061E7F3 /* TagsModel.swift */; };
 		0B329D89286B5A2E0061E7F3 /* TagsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B329D88286B5A2E0061E7F3 /* TagsViewModel.swift */; };
 		0B329D8B286B602D0061E7F3 /* TagsQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B329D8A286B602D0061E7F3 /* TagsQuoteView.swift */; };
@@ -43,6 +61,24 @@
 		0B1699332864D0E700518A40 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
 		0B1699372864D0EA00518A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B16993A2864D0EA00518A40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B2A4F9F286CAC2A0009A0DC /* CreatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorsView.swift; sourceTree = "<group>"; };
+		0B2A4FA3286CB1EF0009A0DC /* PlayfairDisplay-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BoldItalic.otf"; sourceTree = "<group>"; };
+		0B2A4FA4286CB1EF0009A0DC /* PlayfairDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.otf"; sourceTree = "<group>"; };
+		0B2A4FA5286CB1EF0009A0DC /* times new roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "times new roman.ttf"; sourceTree = "<group>"; };
+		0B2A4FA6286CB1EF0009A0DC /* Vollkorn-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vollkorn-Italic.ttf"; sourceTree = "<group>"; };
+		0B2A4FA7286CB1EF0009A0DC /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		0B2A4FA8286CB1EF0009A0DC /* Freight Sans Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Freight Sans Book.otf"; sourceTree = "<group>"; };
+		0B2A4FA9286CB1EF0009A0DC /* Garamond Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Garamond Roman.ttf"; sourceTree = "<group>"; };
+		0B2A4FAA286CB1EF0009A0DC /* PlayfairDisplay-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BlackItalic.otf"; sourceTree = "<group>"; };
+		0B2A4FAB286CB1EF0009A0DC /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		0B2A4FAC286CB1EF0009A0DC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		0B2A4FAD286CB1EF0009A0DC /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		0B2A4FAE286CB1EF0009A0DC /* PlayfairDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Black.otf"; sourceTree = "<group>"; };
+		0B2A4FAF286CB1EF0009A0DC /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		0B2A4FB0286CB1EF0009A0DC /* DancingScript-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		0B2A4FB1286CB1EF0009A0DC /* PlayfairDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.otf"; sourceTree = "<group>"; };
+		0B2A4FB2286CB1EF0009A0DC /* PlayfairDisplay-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic.otf"; sourceTree = "<group>"; };
+		0B2A4FC3286CC4A60009A0DC /* CustomAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationView.swift; sourceTree = "<group>"; };
 		0B329D86286B599C0061E7F3 /* TagsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsModel.swift; sourceTree = "<group>"; };
 		0B329D88286B5A2E0061E7F3 /* TagsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsViewModel.swift; sourceTree = "<group>"; };
 		0B329D8A286B602D0061E7F3 /* TagsQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsQuoteView.swift; sourceTree = "<group>"; };
@@ -101,6 +137,7 @@
 		0B1699322864D0E700518A40 /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				0B2A4FA1286CB1D10009A0DC /* Resources */,
 				0BE10DB02868BE300041CC3D /* sub view */,
 				0B3D6D63286618CB00FD11A2 /* Service */,
 				0B3D6D62286618C300FD11A2 /* Model */,
@@ -124,6 +161,37 @@
 				0B16993A2864D0EA00518A40 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B2A4FA1286CB1D10009A0DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B2A4FA2286CB1EF0009A0DC /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B2A4FA2286CB1EF0009A0DC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0B2A4FA3286CB1EF0009A0DC /* PlayfairDisplay-BoldItalic.otf */,
+				0B2A4FA4286CB1EF0009A0DC /* PlayfairDisplay-Bold.otf */,
+				0B2A4FA5286CB1EF0009A0DC /* times new roman.ttf */,
+				0B2A4FA6286CB1EF0009A0DC /* Vollkorn-Italic.ttf */,
+				0B2A4FA7286CB1EF0009A0DC /* Nunito-Regular.ttf */,
+				0B2A4FA8286CB1EF0009A0DC /* Freight Sans Book.otf */,
+				0B2A4FA9286CB1EF0009A0DC /* Garamond Roman.ttf */,
+				0B2A4FAA286CB1EF0009A0DC /* PlayfairDisplay-BlackItalic.otf */,
+				0B2A4FAB286CB1EF0009A0DC /* Montserrat-Regular.otf */,
+				0B2A4FAC286CB1EF0009A0DC /* Poppins-Regular.ttf */,
+				0B2A4FAD286CB1EF0009A0DC /* Gotham-Light.otf */,
+				0B2A4FAE286CB1EF0009A0DC /* PlayfairDisplay-Black.otf */,
+				0B2A4FAF286CB1EF0009A0DC /* OpenSans-Regular.ttf */,
+				0B2A4FB0286CB1EF0009A0DC /* DancingScript-VariableFont_wght.ttf */,
+				0B2A4FB1286CB1EF0009A0DC /* PlayfairDisplay-Regular.otf */,
+				0B2A4FB2286CB1EF0009A0DC /* PlayfairDisplay-Italic.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		0B3D6D532866119E00FD11A2 /* Supporting Files */ = {
@@ -231,6 +299,7 @@
 				0B5BF2B0286772EF00CCF8D6 /* QuotesCardDetailView.swift */,
 				0BBD2DA3286A2F67003A110A /* AuthorQuoteListView.swift */,
 				0B329D8A286B602D0061E7F3 /* TagsQuoteView.swift */,
+				0B2A4F9F286CAC2A0009A0DC /* CreatorsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -248,6 +317,7 @@
 				0B3D6D6D286619B400FD11A2 /* QuotesCell.swift */,
 				0BE10DB12868BE980041CC3D /* ExploreAuthorCardView.swift */,
 				0B876F30286A0C230027FBF4 /* AuthorView.swift */,
+				0B2A4FC3286CC4A60009A0DC /* CustomAnimationView.swift */,
 			);
 			path = "sub view";
 			sourceTree = "<group>";
@@ -320,8 +390,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2A4FB3286CB1EF0009A0DC /* PlayfairDisplay-BoldItalic.otf in Resources */,
+				0B2A4FB9286CB1EF0009A0DC /* Garamond Roman.ttf in Resources */,
 				0B16993B2864D0EA00518A40 /* Preview Assets.xcassets in Resources */,
+				0B2A4FC0286CB1EF0009A0DC /* DancingScript-VariableFont_wght.ttf in Resources */,
+				0B2A4FBC286CB1EF0009A0DC /* Poppins-Regular.ttf in Resources */,
+				0B2A4FBE286CB1EF0009A0DC /* PlayfairDisplay-Black.otf in Resources */,
+				0B2A4FBD286CB1EF0009A0DC /* Gotham-Light.otf in Resources */,
 				0B1699382864D0EA00518A40 /* Assets.xcassets in Resources */,
+				0B2A4FB6286CB1EF0009A0DC /* Vollkorn-Italic.ttf in Resources */,
+				0B2A4FB7286CB1EF0009A0DC /* Nunito-Regular.ttf in Resources */,
+				0B2A4FBA286CB1EF0009A0DC /* PlayfairDisplay-BlackItalic.otf in Resources */,
+				0B2A4FBF286CB1EF0009A0DC /* OpenSans-Regular.ttf in Resources */,
+				0B2A4FC1286CB1EF0009A0DC /* PlayfairDisplay-Regular.otf in Resources */,
+				0B2A4FB8286CB1EF0009A0DC /* Freight Sans Book.otf in Resources */,
+				0B2A4FC2286CB1EF0009A0DC /* PlayfairDisplay-Italic.otf in Resources */,
+				0B2A4FBB286CB1EF0009A0DC /* Montserrat-Regular.otf in Resources */,
+				0B2A4FB4286CB1EF0009A0DC /* PlayfairDisplay-Bold.otf in Resources */,
+				0B2A4FB5286CB1EF0009A0DC /* times new roman.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,8 +443,10 @@
 				0B5BF2B1286772EF00CCF8D6 /* QuotesCardDetailView.swift in Sources */,
 				0BBD2DA4286A2F67003A110A /* AuthorQuoteListView.swift in Sources */,
 				0BD8A62D286786B700BE2344 /* AuthorNameView.swift in Sources */,
+				0B2A4FC4286CC4A60009A0DC /* CustomAnimationView.swift in Sources */,
 				0B3D6D75286621D900FD11A2 /* Constants.swift in Sources */,
 				0BE10DB72868D91D0041CC3D /* QuotesViewModel.swift in Sources */,
+				0B2A4FA0286CAC2A0009A0DC /* CreatorsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,8 @@
 		0B1699342864D0E700518A40 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1699332864D0E700518A40 /* QuotesApp.swift */; };
 		0B1699382864D0EA00518A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1699372864D0EA00518A40 /* Assets.xcassets */; };
 		0B16993B2864D0EA00518A40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B16993A2864D0EA00518A40 /* Preview Assets.xcassets */; };
+		0B24B2E1286DFCF100200006 /* ActionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24B2E0286DFCF100200006 /* ActionViewData.swift */; };
+		0B24B2E3286DFDA100200006 /* FontColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24B2E2286DFDA100200006 /* FontColorView.swift */; };
 		0B2A4FA0286CAC2A0009A0DC /* CreatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2A4F9F286CAC2A0009A0DC /* CreatorsView.swift */; };
 		0B2A4FB3286CB1EF0009A0DC /* PlayfairDisplay-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FA3286CB1EF0009A0DC /* PlayfairDisplay-BoldItalic.otf */; };
 		0B2A4FB4286CB1EF0009A0DC /* PlayfairDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A4FA4286CB1EF0009A0DC /* PlayfairDisplay-Bold.otf */; };
@@ -41,6 +43,11 @@
 		0B3D6D77286626C600FD11A2 /* TagFilteredQuoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D6D76286626C600FD11A2 /* TagFilteredQuoteListView.swift */; };
 		0B5BF2AD28676CB100CCF8D6 /* ExploreAuthorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BF2AC28676CB100CCF8D6 /* ExploreAuthorListView.swift */; };
 		0B5BF2B1286772EF00CCF8D6 /* QuotesCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BF2B0286772EF00CCF8D6 /* QuotesCardDetailView.swift */; };
+		0B5F897E286E0649001A6AD0 /* FontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F897D286E0649001A6AD0 /* FontView.swift */; };
+		0B5F8980286E0AF0001A6AD0 /* FontSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F897F286E0AF0001A6AD0 /* FontSizeView.swift */; };
+		0B5F8982286E0CDC001A6AD0 /* PostBackgroundColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F8981286E0CDC001A6AD0 /* PostBackgroundColorView.swift */; };
+		0B5F8984286E0DAE001A6AD0 /* CreatorActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F8983286E0DAE001A6AD0 /* CreatorActionView.swift */; };
+		0B5F8986286E0F15001A6AD0 /* ActionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F8985286E0F15001A6AD0 /* ActionCardView.swift */; };
 		0B876F2F286A0BAA0027FBF4 /* AuthorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B876F2E286A0BAA0027FBF4 /* AuthorDetailView.swift */; };
 		0B876F31286A0C230027FBF4 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B876F30286A0C230027FBF4 /* AuthorView.swift */; };
 		0B94844328677AF900207BBD /* QuotesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B94844228677AF900207BBD /* QuotesCardView.swift */; };
@@ -61,6 +68,8 @@
 		0B1699332864D0E700518A40 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
 		0B1699372864D0EA00518A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B16993A2864D0EA00518A40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B24B2E0286DFCF100200006 /* ActionViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewData.swift; sourceTree = "<group>"; };
+		0B24B2E2286DFDA100200006 /* FontColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontColorView.swift; sourceTree = "<group>"; };
 		0B2A4F9F286CAC2A0009A0DC /* CreatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorsView.swift; sourceTree = "<group>"; };
 		0B2A4FA3286CB1EF0009A0DC /* PlayfairDisplay-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BoldItalic.otf"; sourceTree = "<group>"; };
 		0B2A4FA4286CB1EF0009A0DC /* PlayfairDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.otf"; sourceTree = "<group>"; };
@@ -92,6 +101,11 @@
 		0B3D6D76286626C600FD11A2 /* TagFilteredQuoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagFilteredQuoteListView.swift; sourceTree = "<group>"; };
 		0B5BF2AC28676CB100CCF8D6 /* ExploreAuthorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreAuthorListView.swift; sourceTree = "<group>"; };
 		0B5BF2B0286772EF00CCF8D6 /* QuotesCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesCardDetailView.swift; sourceTree = "<group>"; };
+		0B5F897D286E0649001A6AD0 /* FontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontView.swift; sourceTree = "<group>"; };
+		0B5F897F286E0AF0001A6AD0 /* FontSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeView.swift; sourceTree = "<group>"; };
+		0B5F8981286E0CDC001A6AD0 /* PostBackgroundColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBackgroundColorView.swift; sourceTree = "<group>"; };
+		0B5F8983286E0DAE001A6AD0 /* CreatorActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorActionView.swift; sourceTree = "<group>"; };
+		0B5F8985286E0F15001A6AD0 /* ActionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCardView.swift; sourceTree = "<group>"; };
 		0B876F2E286A0BAA0027FBF4 /* AuthorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetailView.swift; sourceTree = "<group>"; };
 		0B876F30286A0C230027FBF4 /* AuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
 		0B94844228677AF900207BBD /* QuotesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesCardView.swift; sourceTree = "<group>"; };
@@ -233,6 +247,7 @@
 				0BE10DB42868D69F0041CC3D /* QuotesModel.swift */,
 				0BBD2D9D286A24B0003A110A /* AuthorsModel.swift */,
 				0B329D86286B599C0061E7F3 /* TagsModel.swift */,
+				0B24B2E0286DFCF100200006 /* ActionViewData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -300,6 +315,7 @@
 				0BBD2DA3286A2F67003A110A /* AuthorQuoteListView.swift */,
 				0B329D8A286B602D0061E7F3 /* TagsQuoteView.swift */,
 				0B2A4F9F286CAC2A0009A0DC /* CreatorsView.swift */,
+				0B5F8983286E0DAE001A6AD0 /* CreatorActionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,6 +334,11 @@
 				0BE10DB12868BE980041CC3D /* ExploreAuthorCardView.swift */,
 				0B876F30286A0C230027FBF4 /* AuthorView.swift */,
 				0B2A4FC3286CC4A60009A0DC /* CustomAnimationView.swift */,
+				0B24B2E2286DFDA100200006 /* FontColorView.swift */,
+				0B5F897D286E0649001A6AD0 /* FontView.swift */,
+				0B5F897F286E0AF0001A6AD0 /* FontSizeView.swift */,
+				0B5F8981286E0CDC001A6AD0 /* PostBackgroundColorView.swift */,
+				0B5F8985286E0F15001A6AD0 /* ActionCardView.swift */,
 			);
 			path = "sub view";
 			sourceTree = "<group>";
@@ -420,12 +441,14 @@
 			files = (
 				0B1699342864D0E700518A40 /* QuotesApp.swift in Sources */,
 				0B3D6D5E2866126E00FD11A2 /* HomeView.swift in Sources */,
+				0B5F8984286E0DAE001A6AD0 /* CreatorActionView.swift in Sources */,
 				0BE10DB52868D69F0041CC3D /* QuotesModel.swift in Sources */,
 				0BD8A6292867809800BE2344 /* CustomTitleView.swift in Sources */,
 				0B3D6D6E286619B400FD11A2 /* QuotesCell.swift in Sources */,
 				0B3D6D77286626C600FD11A2 /* TagFilteredQuoteListView.swift in Sources */,
 				0BBD2D9E286A24B0003A110A /* AuthorsModel.swift in Sources */,
 				0B329D89286B5A2E0061E7F3 /* TagsViewModel.swift in Sources */,
+				0B24B2E1286DFCF100200006 /* ActionViewData.swift in Sources */,
 				0BBD2DA2286A253E003A110A /* AuthorsViewModel.swift in Sources */,
 				0B3D6D712866218700FD11A2 /* InfoCardView.swift in Sources */,
 				0B329D8B286B602D0061E7F3 /* TagsQuoteView.swift in Sources */,
@@ -433,16 +456,21 @@
 				0BD8A62B286781E800BE2344 /* QuoteTagView.swift in Sources */,
 				0B876F31286A0C230027FBF4 /* AuthorView.swift in Sources */,
 				0B94844328677AF900207BBD /* QuotesCardView.swift in Sources */,
+				0B5F8980286E0AF0001A6AD0 /* FontSizeView.swift in Sources */,
 				0B329D87286B599C0061E7F3 /* TagsModel.swift in Sources */,
 				0B876F2F286A0BAA0027FBF4 /* AuthorDetailView.swift in Sources */,
+				0B24B2E3286DFDA100200006 /* FontColorView.swift in Sources */,
 				0B5BF2AD28676CB100CCF8D6 /* ExploreAuthorListView.swift in Sources */,
 				0B3D6D602866128C00FD11A2 /* FavouriteView.swift in Sources */,
+				0B5F8982286E0CDC001A6AD0 /* PostBackgroundColorView.swift in Sources */,
 				0B3D6D5C2866126100FD11A2 /* ExploreView.swift in Sources */,
 				0B3D6D5A2866123F00FD11A2 /* CustomTabView.swift in Sources */,
+				0B5F8986286E0F15001A6AD0 /* ActionCardView.swift in Sources */,
 				0BE10DAF2868BD9B0041CC3D /* DefaultView.swift in Sources */,
 				0B5BF2B1286772EF00CCF8D6 /* QuotesCardDetailView.swift in Sources */,
 				0BBD2DA4286A2F67003A110A /* AuthorQuoteListView.swift in Sources */,
 				0BD8A62D286786B700BE2344 /* AuthorNameView.swift in Sources */,
+				0B5F897E286E0649001A6AD0 /* FontView.swift in Sources */,
 				0B2A4FC4286CC4A60009A0DC /* CustomAnimationView.swift in Sources */,
 				0B3D6D75286621D900FD11A2 /* Constants.swift in Sources */,
 				0BE10DB72868D91D0041CC3D /* QuotesViewModel.swift in Sources */,

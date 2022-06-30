@@ -21,6 +21,16 @@ struct Constants{
     static let get_quotes = "\(base_url)/quotes"
     static let get_quotes_for_author = "\(base_url)/quotes?author="
     static let image_base_url = "https://api.pexels.com/v1/"
+    /// Color collection
+    static let appColor1 = Color(red: 222/255, green: 246/255, blue: 202/255)
+    static let appColor2 = Color(red: 176/255, green: 254/255, blue: 118/255)
+    static let appColor3 = Color(red: 245/255, green: 187/255, blue: 0)
+    static let appColor4 = Color(red: 228/255, green: 217/255, blue: 1)
+    static let appColor5 = Color(red: 39/255, green: 52/255, blue: 105/255)
+    static let appColor6 = Color(red: 63/255, green: 52/255, blue: 63/255)
+    static let appColor7 = Color(red: 244/255, green: 213/255, blue: 141/255)
+    static let appColor8 = Color(red: 249/255, green: 231/255, blue: 231/255)
+    static let appColor9 = Color(red: 184/255, green: 184/255, blue: 1)
     
     // FONTS
     static let fontRegular = "PlayfairDisplay-Regular"

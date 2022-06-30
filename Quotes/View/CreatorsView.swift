@@ -113,6 +113,10 @@ struct CreatorsView: View {
                         }
                     }
                     .padding(EdgeInsets(top: 5, leading: 20, bottom: 5, trailing: 20))
+//                    FontColorView(fontColor: .black)
+                    CreatorActionView(backgroundColor: $backgroundColor, fontColor: $fontColor , fontSize: $fontSize, fontName: $fontName, backgroundImage: $backgroundImage, imageCategory: $imageCategory , isOpacityButtonAvailable: $isOpacityButtonAvailable)
+                        .background(colorScheme == .dark ? Color.black : Color.white)
+                    
                     
                     Spacer()
                 }
@@ -123,7 +127,7 @@ struct CreatorsView: View {
                         Button {
                             showingAlert.toggle()
                         } label: {
-                            Image(systemName: "clear")
+                            Image(systemName: "xmark")
                                 .resizable()
                                 .renderingMode(.template)
                                 .scaledToFill()

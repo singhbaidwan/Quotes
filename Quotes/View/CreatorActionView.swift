@@ -84,6 +84,7 @@ struct CreatorActionView: View {
             if !hideFontColorView {
                 FontColorView(fontColor: $fontColor, hideFontColorView: $hideFontColorView , hideActionView: $hideActionView)
             }
+            
 
         }
         

@@ -48,6 +48,7 @@
 		0B5F8982286E0CDC001A6AD0 /* PostBackgroundColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F8981286E0CDC001A6AD0 /* PostBackgroundColorView.swift */; };
 		0B5F8984286E0DAE001A6AD0 /* CreatorActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F8983286E0DAE001A6AD0 /* CreatorActionView.swift */; };
 		0B5F8986286E0F15001A6AD0 /* ActionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F8985286E0F15001A6AD0 /* ActionCardView.swift */; };
+		0B769FDF286F4F1600492C89 /* CreateActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B769FDE286F4F1600492C89 /* CreateActionView.swift */; };
 		0B876F2F286A0BAA0027FBF4 /* AuthorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B876F2E286A0BAA0027FBF4 /* AuthorDetailView.swift */; };
 		0B876F31286A0C230027FBF4 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B876F30286A0C230027FBF4 /* AuthorView.swift */; };
 		0B94844328677AF900207BBD /* QuotesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B94844228677AF900207BBD /* QuotesCardView.swift */; };
@@ -106,6 +107,7 @@
 		0B5F8981286E0CDC001A6AD0 /* PostBackgroundColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBackgroundColorView.swift; sourceTree = "<group>"; };
 		0B5F8983286E0DAE001A6AD0 /* CreatorActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorActionView.swift; sourceTree = "<group>"; };
 		0B5F8985286E0F15001A6AD0 /* ActionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCardView.swift; sourceTree = "<group>"; };
+		0B769FDE286F4F1600492C89 /* CreateActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateActionView.swift; sourceTree = "<group>"; };
 		0B876F2E286A0BAA0027FBF4 /* AuthorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetailView.swift; sourceTree = "<group>"; };
 		0B876F30286A0C230027FBF4 /* AuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
 		0B94844228677AF900207BBD /* QuotesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesCardView.swift; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 				0B5F897F286E0AF0001A6AD0 /* FontSizeView.swift */,
 				0B5F8981286E0CDC001A6AD0 /* PostBackgroundColorView.swift */,
 				0B5F8985286E0F15001A6AD0 /* ActionCardView.swift */,
+				0B769FDE286F4F1600492C89 /* CreateActionView.swift */,
 			);
 			path = "sub view";
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				0BBD2DA2286A253E003A110A /* AuthorsViewModel.swift in Sources */,
 				0B3D6D712866218700FD11A2 /* InfoCardView.swift in Sources */,
 				0B329D8B286B602D0061E7F3 /* TagsQuoteView.swift in Sources */,
+				0B769FDF286F4F1600492C89 /* CreateActionView.swift in Sources */,
 				0BE10DB22868BE980041CC3D /* ExploreAuthorCardView.swift in Sources */,
 				0BD8A62B286781E800BE2344 /* QuoteTagView.swift in Sources */,
 				0B876F31286A0C230027FBF4 /* AuthorView.swift in Sources */,
